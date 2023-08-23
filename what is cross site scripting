@@ -1,0 +1,18 @@
+What is cross site scripting or (XSS) ?
+
+Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into a websites. Cross-site scripting works by manipulating a vulnerable web site so that it returns malicious JavaScript to users. When the malicious code executes inside a victim's browser, the attacker can fully compromise their interaction with the application.. These scripts can even rewrite the content of the HTML page .
+
+
+ Types ****of XSS attacks?****
+
+- **Reflected XSS** - It is a cyber attack where an attacker injects harmful code into a website's input fields. This code is then reflected back to the user's browser, allowing the attacker to steal data or take control of the user's browser.
+
+- **Stored Cross-site scripting**- Stored cross-site scripting (XSS) is a type of cyber attack where malicious code is injected into a website and stored in the server's database. This code is then served to all users who access the vulnerable page. Attackers can use it to steal sensitive data and take control of entire applications.
+
+- **DOM-based XSS** - This type of XSS attack occurs when the malicious code is executed as a result of manipulating the Document Object Model (DOM) in a victim's browser. The attack uses client-side JavaScript to modify the web page's DOM environment, leading to the execution of malicious code. This type of attack is different from the other two types, as the malicious code is not sent from the server, but rather from the client-side.
+
+Preventions from XSS
+
+Website to test your XSS-
+
+http://www.xssgame.com/m4KKGHi2rVUN
